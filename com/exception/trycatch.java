@@ -17,6 +17,9 @@ class Helper{
           }
           System.out.println(naam[naam.length]);
       }catch(ArrayIndexOutOfBoundsException e){
+          System.out.println(e.fillInStackTrace());
+          System.out.println(e.getMessage());
+          System.out.println(e.toString());
           System.out.println("Arrays Out of bound");
       }
         System.out.println(naam[0]);
