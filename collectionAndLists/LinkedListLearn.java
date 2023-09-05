@@ -22,6 +22,16 @@ public class LinkedListLearn {
 
         list.add(2,2);
 
+        list.remove(0);
+
         System.out.println(list);
+
+        System.out.println(list.indexOf(30));
+
+        System.out.println(list.indexOf(300));
+
+        System.out.println(list.lastIndexOf(20));
+
+
     }
 }
