@@ -18,5 +18,18 @@ public class IteratorClass {
         while(s.hasNext()){
             System.out.println(s.next());
         }
+        List<String> subslist=new ArrayList<>();
+
+        try{
+              subslist=list.subList(1,9);
+        }catch ( IndexOutOfBoundsException e){
+            System.out.println("Array index exceed");
+        }
+
+        for (String sub:subslist) {
+            System.out.println(sub);
+        }
+        System.out.println("RadhaMadhav");
+
     }
 }
