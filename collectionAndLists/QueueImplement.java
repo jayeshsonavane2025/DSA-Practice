@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class QueueImplement {
     public static void main(String[] args) {
-        Queue<Integer> q=new LinkedList<>();
+        Queue<Integer> q=new LinkedList<>() ;
 
         q.offer(1);
         q.offer(2);
@@ -17,7 +17,7 @@ public class QueueImplement {
 
         System.out.println(q.peek());
 
-       
+
 
         System.out.println(q);
     }
