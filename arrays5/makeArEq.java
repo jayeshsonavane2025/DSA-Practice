@@ -3,11 +3,6 @@ package arrays5;
 
 import  java.util.*;
 public class makeArEq {
-
-
-
-
-
         public static void main(String[] args) {
             int[][] a = new int[][]{{4, 4, 10, 12, 18, 110, 1000}};
             int k = 2;
